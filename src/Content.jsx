@@ -14,7 +14,7 @@ export function Content() {
   useEffect(handleIndexProducts, []);
 
   return (
-    <div>
+    <div className="container">
       <h1>Welcome to React!</h1>
       <ProductsIndex products={products} />
     </div>
