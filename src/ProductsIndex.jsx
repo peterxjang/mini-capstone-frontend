@@ -4,7 +4,7 @@ export function ProductsIndex(props) {
       <h1>All products</h1>
       <div className="row">
         {props.products.map((product) => (
-          <div key={product.id} className="col-sm-4">
+          <div key={product.id} className="col-sm-4 mb-4">
             <div className="card">
               <img src={product.images[0].url} className="card-img-top" alt="..." />
               <div className="card-body">
