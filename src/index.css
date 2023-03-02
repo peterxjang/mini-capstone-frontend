@@ -4,6 +4,7 @@ html {
 
 #root {
   font-family: Futura, Trebuchet MS, Arial, sans-serif;
+  background-image: url("./assets/embossed-diamond.webp");
 }
 
 .card img {
